@@ -28,7 +28,7 @@
         "defaults":
         {
             // Put settings here that you want to apply to all profiles.
-            "colorScheme": "Dracula"
+            "colorScheme": "Omni"
         },
         "list": [
             {
@@ -79,6 +79,29 @@
     // To learn more about color schemes, visit https://aka.ms/terminal-color-schemes
     "schemes": [
         {
+            "name": "Omni",
+			"cursorColor": "#F8F8F2",
+			"selectionBackground": "#41414D",
+			"background": "#191622",
+			"foreground": "#E1E1E6",
+			"black": "#000000",
+			"blue": "#BD93F9",
+			"cyan": "#8D79BA",
+			"green": "#50FA7B",
+			"purple": "#FF79C6",
+			"red": "#FF5555",
+			"white": "#BFBFBF",
+			"yellow": "#EFFA78",
+			"brightBlack": "#4D4D4D",
+			"brightBlue": "#CAA9FA",
+			"brightCyan": "#AA91E3",
+			"brightGreen": "#5AF78E",
+			"brightPurple": "#FF92D0",
+			"brightRed": "#FF6E67",
+			"brightWhite": "#E6E6E6",
+			"brightYellow": "#EAF08D"
+        },
+        {
             "name" : "Dracula",
             "background" : "#272935",
             "black" : "#21222C",
@@ -119,8 +142,8 @@
             "brightWhite": "#e5e5e5",
             "background": "#262a33",
             "foreground": "#e5e5e5"
-          },
-          {
+        },
+        {
             "name": "Argonaut",
             "black": "#232323",
             "red": "#ff000f",
@@ -140,8 +163,8 @@
             "brightWhite": "#ffffff",
             "background": "#0e1019",
             "foreground": "#fffaf4"
-          },
-          {
+        },
+        {
             "name": "BlulocoDark",
             "black": "#4a505d",
             "red": "#f81141",
@@ -161,8 +184,8 @@
             "brightWhite": "#ffffff",
             "background": "#1e2127",
             "foreground": "#abb2bf"
-          },
-          {
+        },
+        {
             "name": "Breeze",
             "black": "#31363b",
             "red": "#ed1515",
@@ -182,8 +205,8 @@
             "brightWhite": "#fcfcfc",
             "background": "#31363b",
             "foreground": "#eff0f1"
-          },
-          {
+        },
+        {
             "name": "Bright Lights",
             "black": "#191919",
             "red": "#ff355b",
@@ -203,8 +226,8 @@
             "brightWhite": "#c2c8d7",
             "background": "#191919",
             "foreground": "#b3c9d7"
-          },
-          {
+        },
+        {
             "name": "Dark+",
             "black": "#000000",
             "red": "#cd3131",
@@ -224,8 +247,8 @@
             "brightWhite": "#e5e5e5",
             "background": "#0e0e0e",
             "foreground": "#cccccc"
-          },
-          {
+        },
+        {
             "name": "Monokai Vivid",
             "black": "#121212",
             "red": "#fa2934",
@@ -245,8 +268,8 @@
             "brightWhite": "#ffffff",
             "background": "#121212",
             "foreground": "#f9f9f9"
-          },
-          {
+        },
+        {
             "name": "Nocturnal Winter",
             "black": "#4d4d4d",
             "red": "#f12d52",
@@ -266,8 +289,8 @@
             "brightWhite": "#ffffff",
             "background": "#0d0d17",
             "foreground": "#e6e5e5"
-          },
-          {
+        },
+        {
             "name": "OneStar",
             "black": "#000000",
             "red": "#d13b3b",
@@ -287,8 +310,8 @@
             "brightWhite": "#fafafa",
             "background": "#0e0e0e",
             "foreground": "#e4e4e4"
-          },
-          {
+        },
+        {
             "name": "synthwave-everything",
             "black": "#fefefe",
             "red": "#f97e72",
@@ -308,8 +331,8 @@
             "brightWhite": "#fefefe",
             "background": "#2a2139",
             "foreground": "#f0eff1"
-          },
-          {
+        },
+        {
             "name": "Ubuntu",
             "black": "#2e3436",
             "red": "#cc0000",
@@ -329,7 +352,7 @@
             "brightWhite": "#eeeeec",
             "background": "#300a24",
             "foreground": "#eeeeec"
-          }
+        }
 	],
 
     // Add custom actions and keybindings to this array.
